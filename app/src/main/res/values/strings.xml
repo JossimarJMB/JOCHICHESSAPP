@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">JOCHICHESSAPP</string>
+    <string name="lecciones">Lecciones</string>
+    <string name="introduccion">Introducción</string>
+    <string name="conceptos_basicos">Conceptos básicos</string>
+    <string name="respuestas_a_amenazas">Respuestas a amenazas</string>
+    <string name="el_ataque_doble">El ataque doble</string>
+    <string name="el_ataque_descubierto">El ataque descubierto</string>
+    <string name="la_clavada">La clavada</string>
+    <string name="rayos_x">Rayos X</string>
+    <string name="desviacion">Desviación</string>
+    <string name="atraccion">Atracción</string>
+    <string name="text_introduccion1">
+        El Ajedrez es un juego de estrategia en el cual la táctica está siempre presente. Hay quien afirma que el ajedrez es 99% táctica, y aunque no sea cierto, si lo es que desempeña un papel importantísimo a lo largo de las partidas.
+    </string>
+    <string name="text_introduccion2">
+        Diremos  que la estrategia es el plan, el saber qué hay que hacer en el tablero ante una posición determinada y responde a la pregunta ¿qué debe hacerse? \n\nEs el conjunto de planes que se realizan para obtener ventaja en la partida a largo plazo y sus decisiones pueden influenciar a la partida durante muchas jugadas o en su totalidad. Implica distinguir los objetivos, planear las líneas generales de actuación y la forma de alcanzarlos. En la estrategia los resultados se ven a largo plazo.\n\n
+        Es también el conjunto de procedimientos, de una o pocas jugadas, cuyo objetivo es obtener algún tipo de ventaja, siendo la más frecuente la ganancia de material. En la táctica los resultados son inmediatos, en pocas jugadas.
+        Como decía Max Euwe, excampeón mundial, "A la estrategia concierne la fijación de una meta y la formación de los planes para alcanzarla. A la táctica compete la ejecución de estos planes. La estrategia es abstracta; la táctica es concreta. Para decirlo en forma sencilla: la estrategia requiere pensar; la táctica requiere observar".\n\n
+        Analizar claramente una posición y elegir un plan adecuado, no logrará nada, ninguna ventaja, si no se es capaz de ejecutarlo, de aplicar los principios de la táctica. Pero no nos engañemos, sin la estrategia, sin un plan general, la táctica carecería de objetivos claros y su aplicación sería errónea. Es importante recalcar que, por lo general, la táctica se antepone a la estrategia. Dicho de otro modo, una ventaja estratégica, a largo plazo, no se justificaría si se tiene un fallo táctico, a corto plazo, que podría decidir la partida.
+    </string>
+    <string name="text_conceptos1">
+        <b>Jugada:</b> Es el movimiento de una pieza de una a otra casilla según las leyes del ajedrez\n\n
+<b>Jugada forzada:</b> Se dice de una jugada cuando no existe ninguna otra que sea buena, o bien, es la única jugada que se puede hacer según las leyes de ajedrez. \n\n
+<b>Sacrificio:</b> Entrega voluntaria de material (piezas o peones). También se llama sacrificio de calidad al cambio de una torre por una pieza menor. \n\n
+<b>Variante:</b> Conjunto o sucesión de jugadas ordenadas y analizadas a partir de una posición determinada unidas por una misma idea que constituyen una línea alternativa de juego. \n\n
+<b>Variante forzada:</b> Es la variante en la cual todas las jugadas de uno o de los dos bandos son únicas, o cualquier otra es mala. \n\n
+<b>Maniobra:</b> Conjunto o sucesión de jugadas cuyo objetivo común es mejorar la posición de uno de los bandos a corto plazo. \n\n
+<b>Maniobra forzada:</b> Es la maniobra con un objetivo inmediato y sin sacrificios en la cual todas las jugadas de uno de los dos bandos son únicas, forzadas, o cualquier otra es mala. \n\n
+<b>Combinación:</b> Este concepto es de gran importancia en el ajedrez y el principal de la táctica. Se ha definido de muchas formas, pero podemos reducir a la siguiente: “la combinación es una secuencia de jugadas más o menos forzadas que implica un sacrificio con el objetivo de obtener una ventaja más o menos decisiva.” Para llevar a cabo las combinaciones con éxito es necesario el conocimiento de los recursos tácticos que se repiten en posiciones similares. En otras palabras, tener visión de combinación, tener la capacidad para descubrir las ideas tácticas ocultas y que por lo general implican sacrificios. \n\n
+<b>Celada:</b> Trampa en la que se le ofrece al adversario material a cambio de una compensación mayor. No es forzada y por lo general, el adversario no cae en la trampa, no ocurre nada y algunas veces puede incluso obtener alguna ventaja. \n\n
+    </string>
+    <string name="text_resp_amenazas1">
+        <b>Mover:</b> desplazar la pieza de la casilla atacada o retirarla de la línea de acción de la pieza atacante. \n\n
+<b>Capturar:</b> capturar al agresor siempre que esto sea posible y no traiga consigo un cambio desventajoso. \n\n
+<b>Defender:</b> protegerla con otra pieza o peón del mismo bando. Esta solución sólo deberá adoptarse si la pieza atacante es de mayor o igual valor que la atacada. \n\n
+<b>Bloquear:</b> situar otra pieza propia en la línea de acción de la atacante. Debemos tener en cuenta, sin embargo, que la pieza que interponemos queda sometida al mismo ataque, y que este método no puede aplicarse cuando la amenaza proviene de un caballo, rey o peón, o cundo no existe ninguna casilla entre la pieza amenazada y la atacante. \n\n
+<b>Contraatacar:</b>  crear una amenaza de igual o mayor envergadura que la del adversario. Así se compensa su acción o se le plantea un problema más urgente que le hará perder la iniciativa. Un modo muy eficaz de conseguirlo es dar un jaque. \n\n
+
+<i>Nota: Debemos tener en cuenta que cuando la amenaza es un jaque y no una captura solamente se pueden considerar: Mover, Capturar y Bloquear, dado que con las otras el Rey seguiría estando en jaque. Si examinamos cada ataque de esta manera, lo mismo que las amenazas, difícilmente pasaremos algo por alto.</i>
+
+    </string>
+    <string name="text_resp_amenazas2">
+        <b>Amenaza 1 – Juegan blancas.</b>\n\n\n
+
+En esta posición las negras amenazan con capturar la Dama blanca. Para evitarlo y analizar cuál es la mejor jugada, sigamos los pasos anteriores: \n\n
+<b>Mover:</b> la Dama se puede mover a 1.Dd3; 1.Dg4 y 1.Dh4\n\n
+<b>Capturar:</b> La dama puede capturar el alfil con 1.Dxb7, pero saldría perdiendo tras 1…Txb7 pues cambiaría una dama (nueve puntos) por un alfil (tres puntos), lo que equivale a perder seis puntos. \n\n
+<b>Defender:</b> Se puede defender con 1.Te1, pero tras 1…Axe4 el negro cambia un alfil por una dama ganando unos seis puntos con el cambio. Por lo general la dama no puede ser defendida, ya que su valor hace que cambiarla por otra pieza que no sea la otra dama, sea un mal negocio. \n\n
+<b>Bloquear:</b> Se puede bloquear con 1.d5, pero la solución es temporal, pues tras 1…Axd5 el ataque sigue igual. \n\n
+<b>Contraatacar:</b> Se puede realizar con 1.Af4, atacando la Dama negra (pieza de igual valor), pero tras 1…Axe4, 2Axd6 Txd5 el negro se queda con un alfil de más. \n\n\n\
+
+<i>Nota: Tras examinar MCDBC (Mover, Capturar, Defender, Bloquear, y Contraatacar) se llega a la conclusión de que lo mejor es Mover.</i>\n\n\n
+    </string>
+    <string name="text_ataque_doble1">
+        El ataque doble consiste en amenazar dos o más objetivos con una misma pieza. Estos pueden ser dos piezas del adversario, una pieza y un punto débil (por ejemplo: una amenaza de mate) o una pieza y jaque. Se produce con cierta frecuencia y es después de descuido, la forma más común de ganar material.\n\n
+La fuerza del ataque doble radica en la dificultad de defenderse de dos amenazas al mismo tiempo, lo más probable es que se pierda material o la ventaja. Todas las piezas, desde el rey hasta el peón, son capaces de realizar un ataque doble (o múltiple en algunos casos).
+    </string>
+    <string name="text_ataque_doble2">
+        <b>Ataque Doble 1</b>\n\n
+En este diagrama podemos ver como el rey ataca al alfil y al caballo al mismo tiempo.
+    </string>
+    <string name="text_ataque_doble3">
+        <b>Ataque Doble 2</b>\n\n
+Aquí la torre está atacando al alfil y al caballo al mismo tiempo. Debido a que las torres suelen jugar por las columnas este ataque no es muy frecuente.
+
+    </string>
+    <string name="text_ataque_doble4">
+        <b>Ataque Doble 3</b>\n\n
+La dama, con su gran facilidad de movimiento a lo largo de las filas, columnas y diagonales, es la pieza ideal para realizar un ataque doble. Pero debido a su gran valor, sólo es eficaz si las piezas están indefensas. Aquí tenemos un ataque cuádruple (jaque y tres piezas).
+
+    </string>
+    <string name="text_ataque_doble5">
+        <b>Ataque Doble 4</b>\n\n
+El alfil, en este diagrama, está atacando al caballo y a la torre.
+
+
+    </string>
+    <string name="text_ataque_doble6">
+        <b>Ataque Doble 5</b>\n\n
+El caballo ataca a las dos torres. Este tipo de ataque doble, además de ser muy eficaz debido al valor del caballo, es también uno de los más temidos y difíciles de ver por los principiantes por el movimiento del caballo, que salta.
+
+
+    </string>
+    <string name="text_ataque_doble7">
+        <b>Ataque Doble 6</b>\n\n
+Podemos ver cómo el peón ataca a la torre y al caballo. Sin lugar a ninguna duda podemos considerar este ataque como el más eficaz de todos, dado el valor del peón. Y por supuesto, es el más humillante para el que lo sufre.\n\n\n
+
+
+    </string>
+    <string name="text_atq_desc1">
+        Para distinguir, he aquí tres casos y una combinación famosa: \n\n
+-	Ataque descubierto\n
+-	Jaque descubierto\n
+-	Jaque doble\n
+-	La combinación del molino\n\n\n\n
+
+<b>Ataque descubierto</b>\n\n
+El ataque a la descubierta consiste en atacar un objetivo del contrario con una pieza que no se mueve, pero cuya acción queda libre al retirar una pieza que le esté bloqueando (obstaculizando). En la mayoría de los casos esta segunda pieza suele atacar otro objetivo, con lo que tenemos que dos piezas diferentes atacaron dos objetivos diferentes, lo que resultaba muy difícil de defender. No todas las piezas pueden participar de igual manera. Sólo tres piezas pueden participar en este ataque sin moverse: la dama, la torre y el alfil. Pero sí todas las piezas pueden participar como pieza que se mueve. Se da con mucha frecuencia en las combinaciones para ganar material.
+
+    </string>
+    <string name="text_atq_desc2">
+        <b>Ataque a la descubierta 1 – Juegan blancas.</b>\n\n
+En el diagrama podemos observar que, si las blancas juegan Ac3, éste atacaría la torre negra, pero a su vez se habría apartado de la columna b, y la torre blanca en b1 atacaría el caballo en b8. Es el ataque de dos piezas diferentes, el alfil y la torre, a dos objetivos diferentes y distantes entre sí. Aquí se ve la dificultad de su defensa. Las negras se tendrían que resignar a perder una de las dos piezas.
+
+
+    </string>
+    <string name="text_atq_desc3">
+        <b>Ataque a la descubierta 2 – Juegan blancas. </b>\n\n
+Jugando las blancas 1.Cc5 ataca a la dama con el caballo y amenazan mate con 2.Dxh7#, con lo que a las negras no les queda otro remedio que perder su dama y defenderse de la amenaza de mate. Aquí tenemos el ataque a una pieza y por otro lado una amenaza, en este caso, el mate.\n\n\n\n
+
+<b>Jaque descubierto</b>\n\n
+Es el ataque descubierto cuando una de las piezas le da jaque al rey. La que da jaque es la que no se mueve, la que se mueve es libre de ir a cualquier casilla y actuar con total libertad ya que se está obligado a defenderse del jaque. Si el ataque descubierto ya es peligroso, el jaque descubierto lo es más.
+
+
+    </string>
+    <string name="text_atq_desc4">
+        <b>Jaque a la descubierta 1 – Juegan blancas. </b>\n\n
+Las blancas juegan 1.Rd2+ atacando la torre con el rey y dando jaque con su torre. Las negras tienen que evitar el jaque con 1…Te6 o mover el rey y perderían su torre.
+
+
+    </string>
+    <string name="text_atq_desc5">
+        <b>Jaque a la descubierta 2 – Juegan blancas. </b>\n\n
+Las blancas juegan 1.d6+ atacando la dama con el peón y dando jaque con el alfil. Las negras tienen que evitar el jaque con 1…Df7 o mover el rey y perderían su Dama. En ambos casos estarían perdidas.\n\n\n\n
+
+        <b>El Jaque doble</b>\n\n
+Se trata de que tanto la pieza que se mueve como la que no, dan jaque al rey simultáneamente. La descubierta es la única manera de dar jaque doble. Cuando dos piezas atacan simultáneamente al rey es imposible el bloqueo o la captura. La única opción es mover el rey, si la jugada es legal. El jaque doble es tan peligroso que bastantes veces desemboca en mate.
+
+
+    </string>
+    <string name="text_atq_desc6">
+        <b>Jaque Doble 1 – Juegan blancas. </b>\n\n
+1.Cf6+ Se da jaque con la pieza que se mueve, el caballo, y también con la que no, la dama. La única opción de las negras es mover el rey 1…Rh8 2.Dh7# Aquí vemos como el jaque doble desemboca en mate.\n\n\n\n
+
+<b>La combinación del molino</b>\n\n
+Es una combinación basada en el jaque descubierto, en la cual extensa que se produce repetidamente para ir ganando tiempos o material.
+
+
+    </string>
+    <string name="text_atq_desc7">
+        <b>Combinación del molino 1 – Juegan blancas. </b>\n\n
+
+1.Txg7+ Rh8 2.Txf7+ (jaque descubierto) Rg8\n
+3.Tg7+ Rh8 4.Txe7+ (jaque descubierto) Rg8\n
+5.Tg7+ Rh8 6.Txd7+ (jaque descubierto) Rg8\n
+7.Tg7+ Rh8 8.Txc7+ (jaque descubierto) Rg8\n
+9.Tg7+ Rh8 10.Txb7+ (jaque descubierto) Rg8\n
+11.Tg7+ Rh8 12.Ta7+ (jaque descubierto) Rg8\n
+13.Txa4 con ventaja decisiva.\n\n
+Aquí tenemos dos piezas: el alfil, que actúa como el eje, y la torre, que lo hace como las aspas del molino.\n\n\n
+
+    </string>
+
+    <string name="text_clavada1">
+        Se dice de la jugada que ataca una pieza del adversario e inmoviliza total o parcialmente su movimiento debido a que detrás de ella y en línea (columna, fila o diagonal) se encuentra otra de su mismo color y de mayor valor. En una clavada intervienen tres piezas: la clavadora que es la que realiza el ataque, la clavada que es la que está en el medio (protegiendo) y la resguardada que es la que está detrás.\n\n
+No todas las piezas pueden realizar una clavada, solamente la dama, la torre o el alfil (que son las que se desplazan a través de las columnas filas o diagonales) pueden hacerlo. Sin embargo, todas las piezas excepto el rey pueden ser clavadas. Para que una clavada sea eficaz la pieza resguardada tiene que ser de mayor valor que Ia clavadora o, en caso contrario, estar desprotegida, indefensa. Distinguiremos entre dos tipos de clavada:\n\n
+-	<b>Clavada absoluta:</b> cuando la pieza resguardada sea el rey y clavadora y clavada tienen distinto movimiento. La pieza clavada no se puede mover porque dejaría su rey en jaque.\n
+-	<b>Clavada relativa:</b> cuando la pieza resguardada no sea el rey y clavadora y clavada tienen distinto movimiento. La pieza clavada se puede mover\n\n
+Dentro de éstos diremos que la clavada es parcial, tanto si la resguardada es el rey como si no, en el caso de que la clavadora y la clavada tengan el mismo movimiento. En este caso, la clavada se podrá mover a lo largo de la línea (columna, fila o diagonal). Un caso particular es cuando una pieza se encuentra clavada en dos direcciones diferentes, en este caso decimos que está clavada en cruz. En el caso de que una pieza clavada pueda defenderse creando una amenaza mayor (como por ejemplo un jaque) y capturar a la clavadora diremos que es una falsa clavada. Este caso sólo se puede dar cuando la clavada es relativa.
+
+    </string>
+    <string name="text_clavada2">
+<b>Clavada 1</b>\n\n
+Clavada absoluta. El caballo no se puede mover porque se quedaría el rey en jaque. Con la clavada absoluta la pieza clavada pierde todas sus funciones.
+
+    </string>
+    <string name="text_clavada3">
+<b>Clavada 2</b>\n\n
+Clavada relativa. La torre se puede mover, pero no es conveniente porque se capturaría la dama que es de mayor valor.
+
+    </string>
+    <string name="text_clavada4">
+<b>Clavada 3</b>\n\n
+A esta clavada la llamaremos parcial porque la torre aunque no se puede mover a lo largo de la fila sí puede hacerlo a lo largo de la columna.
+
+    </string>
+    <string name="text_clavada5">
+<b>Clavada 4</b>\n\n
+Clavada en cruz. El caballo está clavado doblemente, por un lado una clavada absoluta con el alfil y por el otro una clavada relativa con la torre.
+
+    </string>
+    <string name="text_clavada6">
+<b>Clavada 5</b>\n\n
+Falsa clavada. El alfil está clavado (clavada relativa), pero si el turno de juego fuera de las blancas, podrían jugar Axh7+ las negras moverían su rey y las blancas a continuación capturarían la torre negra de d7 con Dxd7.
+
+    </string>
+    <string name="text_clavada7">
+<b>Clavada 6 – Mueven las negras. </b>\n\n
+Aquí las negras pueden capturar la dama blanca sin que el peón pueda hacer nada al estar clavado. Este es uno de los mayores inconvenientes de la clavada: las piezas pierden movilidad y funciones.\n\n\n
+
+    </string>
+
+    <string name="text_rayx1">
+Al igual que la clavada, en el ataque rayos X intervienen tres piezas que están situadas en una misma línea (en columna, fila o diagonal), pero a diferencia de esta, la pieza que está en el medio es de mayor valor que la que está detrás, por lo que la mayoría de los casos es frecuente que se aparte dejando indefensa a la otra. El objetivo de los rayos X no es la pieza atacada sino la que se encuentra detrás, por lo que podríamos afirmar que es el ataque a una pieza a través de otra de su mismo color. Como en el caso de la clavada sólo tres piezas pueden llevar a cabo el ataque rayos X, y son las mismas: la dama, la torre y el alfil.
+    </string>
+    <string name="text_rayx2">
+<b>Rayos X 1 – Juegan negras. </b>\n\n
+La torre blanca está dando jaque, el rey se tiene que mover y ésta captura la dama. El objetivo del ataque era la dama a través del rey.
+
+    </string>
+    <string name="text_rayx3">
+<b>Rayos X 2. </b>\n\n
+El alfil de f3 ataca a la dama y si esta se retira (que es lo menos malo) captura la torre de a8\n\n
+<i>Debemos tener en cuenta que en algunos casos el ataque rayos X es un ataque a una casilla sobre la que se quiere tener el control a través de una pieza. Veamos el siguiente ejemplo:</i>
+
+    </string>
+    <string name="text_rayx4">
+<b>Rayos X 3 – Juegan blancas. </b>\n\n
+El alfil de g2 está atacando la casilla a8 a través del alfil de b7.\n\n
+1.Ta8+ Axa8 2.Txa8#\n\n\n
+
+    </string>
+
+    <string name="text_desv1">
+El objetivo de la desviación es distraer a un defensor y hacerle abandonar su puesto para que descuide la pieza o la zona que estaba protegiendo.\n\n
+Está relacionado con la sobrecarga de una pieza clave en el papel defensivo y puede implicar un sacrificio.
+
+    </string>
+    <string name="text_desv2">
+<b>Desviación 1 – Juegan negras. </b>\n\n
+En este caso nos interesa atacar a la dama en f7, pero está protegida por el rey, así que lo desviamos de forma inevitable hasta h8 y la dama es nuestra.\n\n
+1. Th4-h8+ Rg8xh8 2.Dd5xf7
+
+    </string>
+    <string name="text_desv3">
+<b>Desviación 2 – Juegan negras.</b>\n\n
+En este caso se trata de atraer a la torre para dar el mate de la coz\n\n
+1... Tg1+ 2. Txg1 Cf2#
+
+    </string>
+    <string name="text_desv4">
+<b>Desviación 3 – Juegan negras.</b>\n\n
+Las negras buscan dar mate con Dxb2, para ello desvían la defensora de ese punto, la dama blanca, con:\n\n
+1... Ag5 2. Dxg5 Dxb2#\n\n\n
+
+    </string>
+
+    <string name="text_atracc1">
+El tema táctico de la atracción en el Ajedrez nos ayuda a conseguir llevar a una pieza de nuestro rival hacia la posición que nosotros deseemos para obtener una ventaja sobre el mismo.\n\n
+Es como cuando con un imán atraigo o llevo una pieza de hierro de su posición inicial a una nueva posición que yo deseo.\n\n
+¿Qué ocurre? Pues que como con la pieza de hierro y el imán, en la posición de Ajedrez, la pieza que se hace mover lo hace de modo forzado mediante el movimiento de nuestras piezas. Por lo tanto, nosotros somos quienes obligamos, mediante Jugadas Forzantes (Jaques, Cambios y Amenazas Directas), a que nuestro rival no tenga más opción que hacer aquello a lo que nosotros le forzamos.
+
+    </string>
+    <string name="text_atracc2">
+<b>Atracción 1</b>\n\n
+En el diagrama se muestra que las negras darán mate en una jugada con …Dg2#. Para ello las blancas deben hacerlo antes. La forma de hacerlo es hacer De8+. El negro sólo puede tomar con el Rey en e8 o ir con el Rey también a g7. Si elige esta última viene Df7#. Si elige hacer …Rxe8, vendría Tc8#. Entonces se habría dado la atracción de la Dama al Rey hacia e8.
+
+</string>
+    <string name="text_atracc3">
+<b>Atracción 2</b>\n\n
+Parecido al diagrama anterior:\n\n
+1.	Dxa6 Rxa6\n
+    Si 1...Rb6 2. Db7#\n\n
+        2. Ta1#.\n\n\n
+
+</string>
+    <string name="text_atracc4">
+
+</string>
+    <string name="text_atracc5">
+
+</string>
+    <string name="text_atracc6">
+
+</string>
+
+</resources>

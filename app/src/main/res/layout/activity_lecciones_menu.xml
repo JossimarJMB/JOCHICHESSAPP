@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_lecciones"
+    tools:context=".LeccionesMenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_lecciones1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="@string/lecciones"
+        android:textColor="#020AA7"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonL1"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/introduccion"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonL2"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/conceptos_basicos"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonL3"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/respuestas_a_amenazas"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/buttonL4"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/el_ataque_doble"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/buttonL5"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/el_ataque_descubierto"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonL6"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/la_clavada"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/buttonL7"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/rayos_x"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/buttonL8"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/desviacion"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonL9"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tema_boton1"
+        android:text="@string/atraccion"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginVertical="10dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

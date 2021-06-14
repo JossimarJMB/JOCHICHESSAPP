@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jochichessapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".EjerciciosMenu"></activity>
+        <activity android:name=".TorneoMenu" />
+        <activity android:name=".LeccAtraccion" />
+        <activity android:name=".LeccDesviacion" />
+        <activity android:name=".LeccAtqRayX" />
+        <activity android:name=".LeccClavada" />
+        <activity android:name=".LeccAtqDesc" />
+        <activity android:name=".LeccAtqDoble" />
+        <activity android:name=".Lecc_resp_amenazas" />
+        <activity android:name=".Lecc_conceptos" />
+        <activity android:name=".lecc_intro" />
+        <activity android:name=".LeccionesMenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

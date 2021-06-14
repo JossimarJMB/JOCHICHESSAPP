@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LeccAtqDoble">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ataque_doble1"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center"
+                android:text="EL ATAQUE DOBLE"
+                android:textColor="#020AA7"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble1"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob1" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble2"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob2" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble3"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob3" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble4"
+                android:textColor="#000"/>
+
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob4" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble5"
+                android:textColor="#000"/>
+
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob5" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble6"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/iv_ataque_doble6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:srcCompat="@drawable/atq_dob6" />
+
+            <TextView
+                android:id="@+id/tv_ataque_doble8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/text_ataque_doble7"
+                android:textColor="#000"/>
+
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+</LinearLayout>
