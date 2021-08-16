@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_torneo1"
+
     tools:context=".TorneoMenu">
 
     <ScrollView
@@ -17,17 +19,39 @@
             android:layout_gravity="center"
             android:orientation="vertical">
 
-
             <TextView
-                android:id="@+id/tv_lecciones1"
+                android:id="@+id/tv_torneo1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="95dp"
                 android:gravity="center"
-                android:text="Este módulo está en desarrollo. Espere la actualización el 28 de Mayo"
+                android:text="Torneo"
                 android:textColor="#020AA7"
                 android:textSize="40sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
 
+            <Button
+                android:id="@+id/buttonT1"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton2"
+                android:text="A rondas"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/buttonT2"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton2"
+                android:text="Round robin"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginTop="40dp"/>
 
 
         </LinearLayout>

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResFinal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv1x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Resultados del torneo"
+                android:textColor="#020AA7"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/lugar"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Lugar"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Nombre"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/PS"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/lspace"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Nspace"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/PSspace"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/BHspace"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/bh1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n2"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n3"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n4"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/l6"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr7"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l7"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps7"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh7"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr8"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l8"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps8"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh8"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr9"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l9"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps9"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh9"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr10"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l10"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps10"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh10"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr11"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l11"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="11"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n11"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps11"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh11"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr12"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l12"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="12"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n12"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps12"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh12"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr13"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l13"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="13"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n13"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps13"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh13"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr14"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l14"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="14"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n14"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps14"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh14"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr15"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l15"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n15"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps15"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh15"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr16"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l16"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="16"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n16"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps16"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh16"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr17"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="17"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n17"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps17"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh17"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr18"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l18"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="18"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n18"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps18"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh18"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr19"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l19"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="19"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n19"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps19"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh19"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr20"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l20"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="20"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n20"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps20"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh20"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr21"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l21"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="21"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n21"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps21"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh21"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr22"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l22"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="22"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n22"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps22"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh22"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr23"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l23"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="23"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n23"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps23"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh23"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr24"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l24"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="24"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n24"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps24"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh24"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr25"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l25"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="25"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n25"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps25"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh25"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr26"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l26"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="26"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n26"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps26"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh26"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr27"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l27"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="27"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n27"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps27"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh27"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr28"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l28"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="28"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n28"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps28"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh28"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr29"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l29"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="29"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n29"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps29"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh29"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr30"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l30"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n30"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps30"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh30"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr31"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l31"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="31"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n31"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps31"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh31"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tr32"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/l32"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="32"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/n32"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nombre"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ps32"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PS"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/bh32"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BH"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

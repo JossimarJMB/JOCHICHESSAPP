@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mates2_menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvxxx2"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center"
+                android:text="Mates en 2"
+                android:textColor="#020AA7"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 1"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 2"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 3"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 4"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 5"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 6"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 7"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 8"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 9"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 10"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

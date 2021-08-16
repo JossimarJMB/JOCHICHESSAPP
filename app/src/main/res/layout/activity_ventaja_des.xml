@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ventaja_des">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvxxx3"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center"
+                android:text="Ventaja Desiciva"
+                android:textColor="#020AA7"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 1"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 2"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 3"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 4"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 5"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 6"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 7"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 8"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 9"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 10"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 11"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 12"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 13"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 14"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 15"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 16"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 17"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 18"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 19"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tema_boton3"
+                android:text="Ejercicio 20"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

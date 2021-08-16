@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ejercicios_ventaja">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/tv1xxx"
+          android:layout_width="match_parent"
+          android:layout_height="95dp"
+          android:gravity="center"
+          android:text="Ventaja Desiciva"
+          android:textColor="#020AA7"
+          android:textSize="40sp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/iv1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_margin="20dp"
+          app:srcCompat="@drawable/m1_mate_1_1" />
+
+
+      <TextView
+          android:id="@+id/tv1"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:gravity="left"
+          android:text="Juegan blancas:"
+          android:textColor="#2196F3"
+          android:textSize="27sp"
+          android:textStyle="bold"
+          android:layout_marginTop="20dp"
+          />
+
+      <EditText
+          android:id="@+id/et1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Ingrese el movimiento"
+          android:text=""
+          android:inputType="textPersonName"
+          android:maxLength="20" />
+
+      <TextView
+          android:id="@+id/tv2"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:gravity="left"
+          android:text="¡Correcto! Felicidades :D"
+          android:visibility="gone"
+          tools:visibility="visible"
+          android:textColor="#4CAF50"
+          android:textSize="27sp"
+          android:textStyle="bold"
+          android:layout_marginTop="20dp"
+          />
+
+      <Button
+          android:id="@+id/btr1"
+          android:layout_width="340dp"
+          android:layout_height="60dp"
+          android:layout_gravity="center"
+          android:background="@drawable/tema_boton2"
+          android:text="Listo!"
+          android:textColor="#000037"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:onClick="onButtonClick4"/>
+
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pareo2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Ronda 2"
+                android:textColor="#020AA7"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_letrerox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Ingrese victorias:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_mesa1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 1:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J1"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/xtv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_J2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J2"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_Tm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa2"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 2:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J3"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J4"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa3"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 3:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J5"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J6"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa4"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 4:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J7"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J8"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa5"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 5:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J9"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J10"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa6"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 6:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J11"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J12"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa7"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 7:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J13"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J14"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa8"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 8:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J15"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J16"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa9"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 9:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J17"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J18"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa10"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 10:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J19"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J20"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa11"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 11:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J21"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J22"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa12"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 12:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J23"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J24"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_mesa13"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 13:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J25"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J26"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa14"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 14:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J27"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J28"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa15"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 15:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J29"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J30"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_mesa16"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Mesa 16:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <RadioGroup
+                android:id="@+id/rg_m16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <RadioButton
+                    android:id="@+id/rb_J31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J31"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_J32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:text="J32"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/xtv32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puntos: x Juega con: x"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_Tm16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tablas"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tema_boton2"
+                android:text="Ir a la siguiente ronda"
+                android:textColor="#000037"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv1pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv2pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv3pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

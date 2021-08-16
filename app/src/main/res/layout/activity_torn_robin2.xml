@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TornRobin2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_xd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Torneo Round robin"
+                android:textColor="#020AA7"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_tr2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Nombres de participantes:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/tv_par1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Participante 1:"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/et_par1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="20"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+            <TextView
+                android:id="@+id/tv_par2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Participante 2:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+            <EditText
+                android:id="@+id/et_par2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="20"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/tv_par3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Participante 3:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <EditText
+                android:id="@+id/et_par3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <TextView
+                android:id="@+id/tv_par4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Participante 4:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <EditText
+                android:id="@+id/et_par4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <TextView
+                android:id="@+id/tv_par5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Participante 5:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <EditText
+                android:id="@+id/et_par5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <TextView
+                android:id="@+id/tv_par6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="Participante 6:"
+                android:textColor="#4CAF50"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+            <EditText
+                android:id="@+id/et_par6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese nombre"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btr1"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tema_boton2"
+                android:text="Ir a Primer Pareo"
+                android:textColor="#000037"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
