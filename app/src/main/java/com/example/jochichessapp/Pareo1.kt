@@ -18,7 +18,6 @@ class Pareo1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pareo1)
 
-
         val objetoIntent: Intent = intent
         var nPar=objetoIntent.getStringExtra("nParticipantesEnTorneo")
         var nRondas=objetoIntent.getStringExtra("nRondasEnTorneo")
@@ -182,10 +181,7 @@ class Pareo1 : AppCompatActivity() {
         var njugador31="j31"
         var njugador32="j32"
 
-        var nJRef = arrayOf(njugador1, njugador2, njugador3, njugador4,njugador5, njugador6, njugador7, njugador8,
-            njugador9, njugador10, njugador11, njugador12, njugador13, njugador14, njugador15, njugador16, njugador17,
-            njugador18, njugador19, njugador20, njugador21, njugador21, njugador22,njugador23,njugador24,njugador25,
-            njugador26,njugador27,njugador28,njugador29,njugador30,njugador31,njugador32)
+
 
         var punRef1 = "p1"
         var punRef2 = "p2"
@@ -220,6 +216,11 @@ class Pareo1 : AppCompatActivity() {
         var punRef31 = "p31"
         var punRef32 = "p32"
 
+        var nJRef = arrayOf(njugador1, njugador2, njugador3, njugador4,njugador5, njugador6, njugador7, njugador8,
+            njugador9, njugador10, njugador11, njugador12, njugador13, njugador14, njugador15, njugador16, njugador17,
+            njugador18, njugador19, njugador20, njugador21, njugador21, njugador22,njugador23,njugador24,njugador25,
+            njugador26,njugador27,njugador28,njugador29,njugador30,njugador31,njugador32)
+
         var punRef = arrayOf(punRef1, punRef2, punRef3, punRef4, punRef5, punRef6, punRef7,
             punRef8, punRef9, punRef10, punRef11, punRef12, punRef13, punRef14,
             punRef15, punRef16, punRef17, punRef18, punRef19, punRef20, punRef21,
@@ -235,38 +236,28 @@ class Pareo1 : AppCompatActivity() {
         //VARIABLE QUE AYUDA A DARLE VALOR INT A NPAR HACIENDOLA CPAR
         var numx= arrayOf("4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20",
             "21","22","23","24","25","26","27","28","29","30","31","32")
-
         //____________________________________________________________________________________________
-
         var nMesas= arrayOf(tv_mesa1,tv_mesa1,tv_mesa2,tv_mesa2,tv_mesa3,tv_mesa3,tv_mesa4,tv_mesa4,tv_mesa5,tv_mesa5,
             tv_mesa6,tv_mesa6,tv_mesa7,tv_mesa7,tv_mesa8,tv_mesa8,tv_mesa9,tv_mesa9,tv_mesa10,tv_mesa10,
             tv_mesa11,tv_mesa11,tv_mesa12,tv_mesa12,tv_mesa13,tv_mesa13,tv_mesa14,tv_mesa14,tv_mesa15,tv_mesa15,
             tv_mesa16,tv_mesa16)
-
         //____________________________________________________________________________________________
 
         var tab= arrayOf(rb_Tm1,rb_Tm1,rb_Tm1,rb_Tm2,rb_Tm1,rb_Tm3,rb_Tm1,rb_Tm4,rb_Tm1,rb_Tm5,rb_Tm1,rb_Tm6,
             rb_Tm1,rb_Tm7,rb_Tm1,rb_Tm8,rb_Tm1,rb_Tm9,rb_Tm1,rb_Tm10,rb_Tm1,rb_Tm11,rb_Tm1,rb_Tm12,
             rb_Tm1,rb_Tm13,rb_Tm1,rb_Tm14,rb_Tm1,rb_Tm15,rb_Tm1,rb_Tm16)
-
         //____________________________________________________________________________________________
-
         var radioBPar= arrayOf(rb_J1,rb_J2,rb_J3,rb_J4,rb_J5,rb_J6,rb_J7,rb_J8,rb_J9,rb_J10,rb_J11,rb_J12,rb_J13,
             rb_J14,rb_J15,rb_J16,rb_J17,rb_J18,rb_J19,rb_J20,rb_J21,rb_J22,rb_J23,rb_J24,rb_J25,rb_J26,rb_J27,
             rb_J28,rb_J29,rb_J30,rb_J31,rb_J32)
-
         //--------------------------------------------------------------------------
-
         var rGroup = arrayOf(rg_m1,rg_m2,rg_m3,rg_m4,rg_m5,rg_m6,rg_m7,rg_m8,rg_m9,
             rg_m10,rg_m11,rg_m12,rg_m13,rg_m14,rg_m15,rg_m16)
         //-------------------------------------------------------------------------------
-
         var xtv= arrayOf(xtv1, xtv2, xtv3, xtv4, xtv5, xtv6, xtv7, xtv8, xtv9, xtv10,
             xtv11, xtv12, xtv13, xtv14, xtv15, xtv16, xtv17, xtv18, xtv19, xtv20,
             xtv21, xtv22, xtv23, xtv24, xtv25, xtv26, xtv27, xtv28, xtv29,
             xtv30, xtv31, xtv32)
-
-
         var cParDentro=0
 
         //DARLE UN VALOR INT A NPAR
@@ -325,7 +316,6 @@ class Pareo1 : AppCompatActivity() {
         ID30 = (1..cParDentro).random()
         ID31 = (1..cParDentro).random()
         ID32 = (1..cParDentro).random()
-
 
         while(ID1== ID2){
             ID2 = (1..cParDentro).random()
@@ -524,15 +514,8 @@ class Pareo1 : AppCompatActivity() {
             ID16, ID17, ID18, ID19, ID20, ID21, ID22, ID23, ID24, ID25, ID26, ID27, ID28, ID29,
             ID30, ID31, ID32)
 
-        //TERMINA AGUJERO NEGRO DE ASIGNACIÓN DE ID RANDOM
-
        var cParX: Int = cParDentro -1
         var k: Int = 0
-
-
-
-
-
         //HASTA AQUÍ TENGO EL NÚMERO DE PARTICIPANTES NETOS EN INT Y LOS NOMBRES NECESARIO
             for (j in 1.. cParDentro){
                 for(i in 0..cParX){
@@ -546,14 +529,12 @@ class Pareo1 : AppCompatActivity() {
 
         var blancas = "Blancas"
         var negras = "Negras"
-
         for(i in 0..cParX step 2){
             if(i == cParX)break
             else{
                 xtv[i].text = xtv[i].text.toString() + " Juega con: " + blancas
             }
         }
-
         for(i in 1..cParX step 2){
             xtv[i].text = xtv[i].text.toString() + " Juega con: " + negras
         }
@@ -576,13 +557,8 @@ class Pareo1 : AppCompatActivity() {
                 }
             }
         }
-
-
         b1.setOnClickListener() {
-
             var fRadio = 0
-
-
             var cRadio = 0
 
             if(cParDentro in 1..2){
@@ -662,7 +638,7 @@ class Pareo1 : AppCompatActivity() {
                     else{
                         for(i in 0..cParX){
                             if(radioBPar[j].isChecked){
-                                if (radioBPar[j].text.toString() == nJ[i].toString()){
+                                if (radioBPar[j].text.toString() == nJ[i]){
                                     puntos[i] += 2
                                 }
                             }

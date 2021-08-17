@@ -16,12 +16,9 @@ class TornRondas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_torn_rondas)
 
-
         var spinner = findViewById<Spinner>(R.id.spinner1)
-
         //Un Array en recursos con valor de 4 a 32. (Selección de número de participantes)
         val lista = resources.getStringArray(R.array.arrayPart)
-
         //Se llena el spinner con los valores de la variable "lista"
         val adaptador = ArrayAdapter(this, android.R.layout.simple_spinner_item, lista)
         spinner.adapter = adaptador
@@ -91,16 +88,11 @@ class TornRondas : AppCompatActivity() {
                     }
                 }
             }
-
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("Not yet implemented")
             }
-
         }
-
     }
-
-
     //Función que se ejecuta cuando se selecciona un RB en cada Grupo de RBs
     fun onRadioButtonClickedVal(view: View) {
         if (view is RadioButton) {
@@ -135,24 +127,19 @@ class TornRondas : AppCompatActivity() {
 
     //Función que se ejecuta cuando se selecciona un botón.
     fun onButtonClicked(view: View) {
-        //Se le da el valor a nombreTorneo del Edit Text 1
-        var nombreTorneo: String = et_tr1.text.toString()
         //Variables de control
-        var flagPar: Int = 0
         var flagRondas: Int = 0
         var flagTorneo: Int = 0
         // la variable local nParticipantes, toma el valor del número de participantes.
         var nParticipantes: Int = nParticipantesG
         //Variable que hereda número de rondas seleccionadas.
         var nRondas: Int = 0
-
         //Imprime un error si no se ha escrito el nombre del torneo.
         if (et_tr1.text.toString().isEmpty()) {
             et_tr1.error = "Dale nombre a tu torneo, por favor"
         } else {
             flagTorneo = 1
         }
-
         //Define el número de rondas que se van a jugar.
         if (rb_torneoRondasx4.isChecked) {
             flagRondas = 1

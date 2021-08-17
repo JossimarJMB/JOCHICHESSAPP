@@ -27,7 +27,6 @@
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 />
-
             <TextView
                 android:id="@+id/tv_tr2"
                 android:layout_width="match_parent"

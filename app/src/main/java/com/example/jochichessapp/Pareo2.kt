@@ -23,7 +23,6 @@ class Pareo2 : AppCompatActivity() {
             b1.text = "Finalizar torneo"
         }
 
-
         //AGUJERO NEGRO DE VARIABLES DE CONTROL DE JUGADORES
         //--------------------------------------------------------------
         //--------------------------------------------------------------

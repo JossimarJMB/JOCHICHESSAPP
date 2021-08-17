@@ -16,7 +16,6 @@ class EjerciciosMenu : AppCompatActivity() {
             val intent1 = Intent(this, Mates1_menu ::class.java)
             startActivity(intent1)
         }
-
         val b2 = findViewById<Button>(R.id.b2)
         b2.setOnClickListener {
             val intent2 = Intent(this, Mates2_menu::class.java)

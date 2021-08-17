@@ -62,9 +62,6 @@ class TornRondas2 : AppCompatActivity() {
             tv_par31,
             tv_par32
         )
-
-
-
         //Variable que controla loa EDITTEXT de los jugadores
         var cNJugadores_et = arrayOf(
             et_par1,
@@ -100,7 +97,6 @@ class TornRondas2 : AppCompatActivity() {
             et_par31,
             et_par32
         )
-
         //Variable que controla el número de participantes.
         var cPar = 3
         //Array que guarda el número de participantes en juego
@@ -135,7 +131,6 @@ class TornRondas2 : AppCompatActivity() {
             "31",
             "32"
         )
-
         var cParDentro = 0
         var cParX = 0
 
@@ -212,8 +207,8 @@ class TornRondas2 : AppCompatActivity() {
 
 
         //Dar valor int a cPar
-        for (numy in 0..28) {
-            if (nPar == numx[numy]) {
+        for (i in 0..28) {
+            if (nPar == numx[i]) {
                 cPar += 1
                 break
             } else {
@@ -264,20 +259,16 @@ class TornRondas2 : AppCompatActivity() {
 
         //Si sí está lleno, se comprueba que sea el último y se mandan valores de nPar, nRondas y nTorneo.
                 else {
-
-                                    if (num1 == cParX) {
-                                        intent.putExtra("nParticipantesEnTorneo", nPar)
-                                        intent.putExtra("nRondasEnTorneo", nRondas)
-                                        intent.putExtra("nTorneo", nTorneo)
-                                        startActivity(intent)
-                                    }
-                                }
-
-
+                    if (num1 == cParX) {
+                        intent.putExtra("nParticipantesEnTorneo", nPar)
+                        intent.putExtra("nRondasEnTorneo", nRondas)
+                        intent.putExtra("nTorneo", nTorneo)
+                        startActivity(intent)
                     }
                 }
-
             }
+        }
+    }
     /*// Si sí es el último, se asegura que no haya repetidos.
     for (pivot in 0..cParDentro2) {
         //Si sí hay repetidos, se manda mensaje de error y se rompe el for.
